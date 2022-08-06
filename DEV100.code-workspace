@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\ODIN"
+		},
+		{
+			"path": "..\\APPACADEMY"
+		},
+		{
+			"path": "..\\flexbox"
+		},
+		{
+			"path": "D:\\responsive_web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "DEV100"
+	}
+}

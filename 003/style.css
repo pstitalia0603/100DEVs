@@ -1,0 +1,14 @@
+h1 {
+    /* color: rgba(255,0,0,1);
+    color: red;
+    color: #ff0000; */
+    color: hsla(0,100%,50%,1);
+
+}
+
+p {
+    font-family: 'Source Sans Pro', 'Helvetica',sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+

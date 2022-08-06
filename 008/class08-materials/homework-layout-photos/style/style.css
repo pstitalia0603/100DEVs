@@ -1,0 +1,137 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  ul, li, a {
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav {
+    padding: 1em 5em;
+  }
+  
+  nav > ul > li  {
+    float: left;
+    padding: 0.15em 1em;
+  }
+  
+  .nav-logo {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  header {
+    background: rgb(99, 117, 140);
+    height: 3.7em;
+  }
+  
+  .center {
+    width: 65%;
+    height: 20em;
+    margin: 0 auto;
+    background: rgb(218, 223, 227)
+  }
+  
+  .info-box {
+    width: 50%;
+    padding: 1.75em 1em;
+    float: left;
+  }
+  
+  .main {
+    background: rgb(99, 117, 140);
+  }
+  
+  .text-section {
+    width: 50%;
+    padding: 1.75em 1em;
+    margin: 0 auto;
+  }
+  
+  footer {
+    background: rgb(20, 31, 43);
+  }
+  
+  /******************************************
+  /* TYPOGRAPHY
+  /*******************************************/
+  
+  h1, h2, h3, a, li {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(241, 241, 241);
+  }
+  
+  a, li {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.05em;
+  }
+  
+  h1 {
+    font-size: 74px;
+    font-weight: 400;
+    color: rgb(241, 241, 241);
+    letter-spacing: .02em;
+    margin: 0;
+    padding-top: 1.75em;
+    padding-bottom: 0.7em;
+  }
+  
+  p {
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+  }
+  
+  p.main {
+    display: block;
+    max-width: 59%;
+    font-size: 21px;
+    font-weight: 300;
+    margin: 0 auto;
+    line-height: 1.35em;
+    letter-spacing: 0.015em;
+    color: rgb(241, 241, 241);
+    padding-bottom: 2.75em;
+  }
+  
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+  
+  .video-button {
+    display: block;
+    margin: 0 auto 3.5em auto;
+  }
+  
+  .donate-button {
+    display: block;
+    float: right;
+  }

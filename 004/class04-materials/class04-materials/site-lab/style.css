@@ -1,0 +1,19 @@
+body {
+    background-color: #87CEEB;
+    color: white;
+    border: 5px solid #48CD31;
+}
+
+h1{
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+a {
+    text-decoration: underline;
+    color: #48CD31;
+}
+
+img {
+    width: 200px;
+    float: right;
+}
