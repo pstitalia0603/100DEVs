@@ -2,9 +2,9 @@
 // Extend that parent class into two children
 // Use Encapsulation, Abstraction, Inheritance, and Polymorphism
 
-class Contractor{
+class Contractor{ //encapsulation -- nethods and properties in one spot
     constructor(name,role){
-        this._name = name
+        this._name = name  //abstraction -- not allowing name to be renamed convention
         this._role = role
     }
     get name(){
@@ -35,9 +35,9 @@ class Contractor{
 // }
 
 
-class Front extends Contractor{
+class Front extends Contractor{  //inheritance -- extending Contractor to a new Front class
     constructor(name,role,tech){
-        super(name,role)
+        super(name,role) // inheritance -- super -- taking from parent class
         this._tech = tech
     }
     get tech(){
@@ -94,9 +94,15 @@ let ella = new Contractor('Ella','front-end')
 let nico = new Front('Nico','frontend','react')
 let gianluca = new Back('Gianluca','fullstack','node')
 
+
+
+
+
 let agency = [ella,nico,gianluca]
 
-for (person of agency){
+
+
+for (person of agency){    //polymorphism -- provides an ability to call the same method on different JavaScript objects
     person.sayHello()
 }
 
