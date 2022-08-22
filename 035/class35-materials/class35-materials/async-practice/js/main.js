@@ -26,7 +26,21 @@
 // houseTwo()
 // houseThree()
 
-//Code 03
+//Code 02b
+// function houseOne(){
+//     console.log('Paper delivered to house 1')
+// }
+// function houseTwo(){
+//     setTimeout(() => console.log('Paper delivered to house 2'), 0)
+// }
+// function houseThree(){
+//     console.log('Paper delivered to house 3')
+// }
+// houseOne()
+// houseTwo()
+// houseThree()
+
+//Code 03 -- CALLBACKS
 // function houseOne(){
 //     console.log('Paper delivered to house 1')
 // }
@@ -42,7 +56,7 @@
 // houseOne()
 // houseTwo(houseThree)
 
-//Code 04
+//Code 04 -- nested callbacks ,hard to read code (Callback hell, pyramid of doom)
 // function houseOne(){
 //     setTimeout(() => {
 //         console.log('Paper delivered to house 1')
@@ -56,7 +70,7 @@
 // }
 // houseOne()
 
-//Code 05
+//Code 05 -- more readable to handle async code, instead of callbacks -- Promises
 // const promise = new Promise((resolve, reject) => {
 //     const error = false
 //     if(!error){
@@ -135,10 +149,11 @@
 // getPaid()
 
 //Code 08
-// async function getACuteDogPhoto(){
-//     const res = await fetch('https://dog.ceo/api/breeds/image/random')
-//     const data = await res.json()
-//     console.log(data)
-// }
-// getACuteDogPhoto()
+async function getACuteDogPhoto(){
+    const res = await fetch('https://dog.ceo/api/breeds/image/random')
+    const data = await res.json()
+    console.log(data)
+}
+getACuteDogPhoto()
 
+//add a try / catch
