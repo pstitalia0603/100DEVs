@@ -11,9 +11,15 @@
 		},
 		{
 			"path": "..\\ConquerResponsiveLayouts"
+		},
+		{
+			"path": "..\\flexbox-navbar-course-files"
+		},
+		{
+			"path": "..\\wavy-curvey-blobby-website-main"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "DEV100"
+		"liveServer.settings.multiRootWorkspaceName": "wavy-curvey-blobby-website-main"
 	}
 }
