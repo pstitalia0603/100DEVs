@@ -17,9 +17,12 @@
 		},
 		{
 			"path": "..\\wavy-curvey-blobby-website-main"
+		},
+		{
+			"path": "..\\CodeWars"
 		}
 	],
 	"settings": {
-		"liveServer.settings.multiRootWorkspaceName": "wavy-curvey-blobby-website-main"
+		"liveServer.settings.multiRootWorkspaceName": "DEV100"
 	}
 }
