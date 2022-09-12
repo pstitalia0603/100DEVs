@@ -1,6 +1,5 @@
 let db,
-    dbConnectionStr = 'mongodb+srv://demo:demo@cluster0
-    .2wapm.mongodb.net/rap?retryWrites=true&w=majority',
+    dbConnectionStr = 'mongodb+srv://demo:demo@....',
     dbName = 'rap'
 
 MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
