@@ -1,0 +1,7 @@
+mkdir api-project
+cd api-project
+npm init
+npm install express --save
+npm install mongodb --save
+npm install ejs --save
+npm install dotenv --save

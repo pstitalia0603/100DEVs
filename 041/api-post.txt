@@ -1,0 +1,8 @@
+app.post('/addRapper', (request, response) => {
+    db.collection('rappers').insertOne(request.body)
+    .then(result => {
+        console.log('Rapper Added')
+        response.redirect('/')
+    })
+    .catch(error => console.error(error))
+})

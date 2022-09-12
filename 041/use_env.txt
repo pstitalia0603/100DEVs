@@ -1,0 +1,11 @@
+#.env file
+DB_STRING =
+  mongodb+srv://demo:demo@cluster0.2wapm.mongodb.net/rap?retryWrites=true&w=majority
+
+  #add .env to .gitignore
+  .env
+node_modules
+
+in terminal, add var to Heroku
+heroku config:set DB_STRING =
+  mongodb+srv://demo:demo@cluster0.2wapm.mongodb.net/rap?retryWrites=true&w=majority
